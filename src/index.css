@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f7fbff;
+  color: #0f172a;
+}
+
+a {
+  text-decoration: none;
+}
+:root {
+  --gradient-orange: linear-gradient(135deg, #ff6b00, #ff3d81);
+  --gradient-green: linear-gradient(135deg, #00b894, #19c3d1);
+}
+
+.gradient-orange {
+  background: var(--gradient-orange);
+}
+
+.gradient-green {
+  background: var(--gradient-green);
+}
